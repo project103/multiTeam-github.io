@@ -1,6 +1,6 @@
 <?php
 
-header("location: ../view/main/login.php");
+header("location: ../view/main/login.phpp");
 
 
 ?>
