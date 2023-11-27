@@ -30,8 +30,7 @@ class teacherController{
         $this->db = new DBcontroller ;
         if($this->db->openConnection()){
             $query = " select * from unavalaiblerent where 1 ";
-            $result = $this->db->select($query);
-            if($result == false){
+            
                 return false;
             }else{
                 return $result;
